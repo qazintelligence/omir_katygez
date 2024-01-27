@@ -33,6 +33,9 @@ public class Person {
     public String toString(){
         return id+"."+name+" "+surname;
     }
+    public String getPosition(){
+        return "Student";
+    }
 
 
 }
