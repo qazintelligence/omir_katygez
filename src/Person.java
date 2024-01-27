@@ -1,3 +1,10 @@
 public class Person {
- вларываываыва
+    public static int id = 1;
+
+    public String name;
+    public String surname;
+
+    public Person(){
+        id++;
+    }
 }
