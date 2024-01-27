@@ -1,10 +1,16 @@
 public class Person {
-    public static int id = 1;
+    private static int id_gen = 1;
+    private static int id;
 
     public String name;
     public String surname;
 
     public Person(){
-        id++;
+        id= id_gen++;
+    }
+
+
+
+
     }
 }
