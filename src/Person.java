@@ -1,4 +1,4 @@
-public class Person implements Payable {
+public class Person implements Payable,Comparable<Person>{
     private static int id_gen = 1;
     private static int id;
     private String name;
@@ -55,5 +55,9 @@ public class Person implements Payable {
         } else {
             return 0;
         }
+    }
+
+    @Override
+    public void compareTo() {
     }
 }

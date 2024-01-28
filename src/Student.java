@@ -51,4 +51,8 @@ public class Student extends Person {
         return "Student:"+id+"."+name+" "+ surname;
     }
 
+    @Override
+    public void compareTo() {
+    }
+
 }

@@ -48,4 +48,7 @@ public class Employee extends Person {
     public String toString(){
         return "Employee:"+id+"."+name+" "+surname;
     }
+    @Override
+    public void compareTo() {
+    }
 }
