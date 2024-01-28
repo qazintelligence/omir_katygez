@@ -5,5 +5,10 @@ public class Main {
         Student stud = new Student("Toregali","Toreali",2.5);
         Employee emp2 = new Employee("Tyler","Durden","very high",70000.00);
         Student stud2 =  new Student("Ryan","Gosling",3.5);
+        ArrayList<Person> ppl = new ArrayList<>();
+        ppl.add(emp);
+        ppl.add(stud);
+        ppl.add(emp2);
+        ppl.add(stud2);
     }
 }

@@ -1,4 +1,4 @@
-public class Employee {
+public class Employee extends Person {
     private static int id_gen = 1;
     private static int id;
     private String name;
