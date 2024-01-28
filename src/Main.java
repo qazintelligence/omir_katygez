@@ -3,7 +3,7 @@ import java.util.Iterator;
 public class Main {
     public static void printData(Iterable<Person> ppl){
         for (Person person : ppl){
-            System.out.println(person);
+            System.out.println(person); //бітпеді
         }
     }
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Main {
         ppl.add(stud);
         ppl.add(emp2);
         ppl.add(stud2);
-        Collection.sort(ppl);
+        // бітпеді Collection.sort(ppl);
 
         printData(ppl);
     }
