@@ -1,4 +1,4 @@
-public class Person {
+public abstract class Person implements Payable{
     private static int id_gen = 1;
     private static int id;
     private String name;
@@ -36,6 +36,13 @@ public class Person {
     public String getPosition(){
         return "Student";
     }
+    public abstract double getPaymentAmount();{
+        Student gpa = new Student();
+        final double gppa = 2.67;
+        gpa.getGpa();
+        if (gpa>gppa){
 
+        }
+    }
 
 }
